@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout') {  
             steps { 
                 git branch: 'master', url: 
-'https://github.com/Sinchana=DR/SimpleCalci.git'  
+'https://github.com/Sinchana-DR/SimpleCalci.git'  
             } 
     } 
      stage('Build') {  
