@@ -8,11 +8,8 @@ public class App
     public static void main( String[] args )
     {
 		MySimpleCalci c = new MySimpleCalci();
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the value for first operand");
-		int a = sc.nextInt();
-		System.out.println("Enter the value for second operand");
-		int b = sc.nextInt();
+		int a=10;
+		int b=5;
 		System.out.println(a + " + " + b  + " = " + c.addition(a, b));	
 		System.out.println(a + " - " + b  + " = " + c.subtraction(a, b));	
 		System.out.println(a + " * " + b  + " = " + c.multiplication(a, b));	
